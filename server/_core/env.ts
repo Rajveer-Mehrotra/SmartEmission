@@ -5,8 +5,8 @@ export const ENV = {
   adminEmail: process.env.ADMIN_EMAIL ?? "admin@local.dev",
   adminPassword: process.env.ADMIN_PASSWORD ?? "admin123",
   // Supabase configuration
-  supabaseUrl: process.env.SUPABASE_URL ?? "https://nblegrzglewrpwqogkgr.supabase.co",
-  supabaseAnonKey: process.env.SUPABASE_ANON_KEY ?? "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5ibGVncnpnbGV3cnB3cW9na2dyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI5NzM2NDMsImV4cCI6MjA3ODU0OTY0M30.uxsb-MFcLeRL4T1Cpe0ji-X5o660RLkfhVfRrrsa5YY",
+  supabaseUrl: process.env.SUPABASE_URL ?? "https://bcojupwxzkamyeievvb.supabase.co",
+  supabaseAnonKey: process.env.SUPABASE_ANON_KEY ?? "",
   supabaseServiceRoleKey: process.env.SUPABASE_SERVICE_ROLE_KEY ?? "",
   // Forge API configuration
   forgeApiUrl: process.env.FORGE_API_URL ?? "",
